@@ -1,0 +1,602 @@
+# depslib dependency file v1.0
+1456685721 source:c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\main.cpp
+	<iostream>
+	"Libs/MathLib.h"
+	"Libs/Window.h"
+	"Libs/Console.h"
+	"Libs/Texture.h"
+	"Libs/IPClientServerConnection.h"
+	"Libs/PlanetsMiniApp.h"
+	<process.h>
+	<thread>
+	<mutex>
+	<chrono>
+
+1456681220 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\window.h
+	<gl/glew.h>
+	"WindowClass.h"
+	"options.h"
+	<map>
+	<vector>
+
+1456448069 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\windowclass.h
+	<iostream>
+	<windows.h>
+	<windowsx.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<map>
+
+1442207350 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\options.h
+	<map>
+
+1456601388 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\console.h
+	"Window.h"
+	"MathLib.h"
+	"String.h"
+	"Log.h"
+	"TextBox.h"
+	"TextImputBox.h"
+	"CommandParser.h"
+
+1452228384 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\mathlib.h
+	<cmath>
+	"Point1.h"
+	"Point2.h"
+	"Point3.h"
+	"Point4.h"
+	"Matrix4f.h"
+
+1450007643 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\point4f.h
+	"Point3f.h"
+
+1451548062 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\matrix4f.h
+	"Point3.h"
+	<stack>
+	<iostream>
+	<string>
+
+1451544102 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\point3f.h
+	"Point.h"
+
+1450007643 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\point2f.h
+	"Point1f.h"
+
+1450007643 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\point1f.h
+
+1456442558 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\point.h
+	<cmath>
+	<iostream>
+	<type_traits>
+
+1452228143 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\point1.h
+	"Point.h"
+
+1452227946 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\point2.h
+	"Point.h"
+
+1452227830 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\point3.h
+	"Point.h"
+	"Point2.h"
+
+1451548058 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\point4.h
+	"Point.h"
+
+1453120479 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\textbox.h
+	"MathLib.h"
+	"String.h"
+	"Log.h"
+	"Font.h"
+
+1455617224 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\string.h
+	<iostream>
+	<algorithm>
+	<vector>
+	<sstream>
+	"Char.h"
+	"SeparatorList.h"
+
+1452887772 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\char.h
+
+1453134944 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\separatorlist.h
+	<vector>
+	"Char.h"
+
+1453039644 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\log.h
+	<vector>
+	<iostream>
+	<fstream>
+	"String.h"
+	"Char.h"
+
+1452893062 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\font.h
+	"SimplexFont.h"
+
+1452890264 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\simplexfont.h
+
+1455616498 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\textimputbox.h
+	"Window.h"
+	"String.h"
+
+1456604885 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\commandparser.h
+	"PlanetsMiniApp.h"
+
+1456354381 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\ipclientserverconnection.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<sys/wait.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<netdb.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+
+1456450929 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\planetsminiapp.h
+
+1215447208 source:c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\soil\image_dxt.c
+	"image_DXT.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1215447208 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\soil\image_dxt.h
+
+1215447208 source:c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\soil\image_helper.c
+	"image_helper.h"
+	<stdlib.h>
+	<math.h>
+
+1215447208 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\soil\image_helper.h
+
+1215447208 source:c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\soil\soil.c
+	<windows.h>
+	<wingdi.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<Carbon/Carbon.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	"SOIL.h"
+	"stb_image_aug.h"
+	"image_helper.h"
+	"image_DXT.h"
+	<stdlib.h>
+	<string.h>
+
+1215447208 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\soil\soil.h
+
+1215447208 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\soil\stb_image_aug.h
+	<stdio.h>
+
+1215447208 source:c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\soil\stb_image_aug.c
+	"stb_image_aug.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+	"stbi_DDS_aug.h"
+	"stbi_DDS_aug_c.h"
+
+1215447208 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\soil\stbi_dds_aug.h
+
+1215447208 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\soil\stbi_dds_aug_c.h
+
+1456687155 c:\users\pangi\desktop\gamegraphicsengine\graphicsframework\libs\texture.h
+	"SOIL/SOIL.h"
+
+1215447208 source:c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\soil\image_dxt.c
+	"image_DXT.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1215447208 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\soil\image_dxt.h
+
+1215447208 source:c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\soil\image_helper.c
+	"image_helper.h"
+	<stdlib.h>
+	<math.h>
+
+1215447208 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\soil\image_helper.h
+
+1215447208 source:c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\soil\soil.c
+	<windows.h>
+	<wingdi.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<Carbon/Carbon.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	"SOIL.h"
+	"stb_image_aug.h"
+	"image_helper.h"
+	"image_DXT.h"
+	<stdlib.h>
+	<string.h>
+
+1215447208 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\soil\soil.h
+
+1215447208 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\soil\stb_image_aug.h
+	<stdio.h>
+
+1215447208 source:c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\soil\stb_image_aug.c
+	"stb_image_aug.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+	"stbi_DDS_aug.h"
+	"stbi_DDS_aug_c.h"
+
+1215447208 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\soil\stbi_dds_aug.h
+
+1215447208 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\soil\stbi_dds_aug_c.h
+
+1456689321 source:c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\main.cpp
+	<iostream>
+	"Libs/MathLib.h"
+	"Libs/Window.h"
+	"Libs/Console.h"
+	"Libs/Texture.h"
+	"Libs/IPClientServerConnection.h"
+	"Libs/PlanetsMiniApp.h"
+	<process.h>
+	<thread>
+	<mutex>
+	<chrono>
+
+1452231984 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\mathlib.h
+	<cmath>
+	"Point1.h"
+	"Point2.h"
+	"Point3.h"
+	"Point4.h"
+	"Matrix4f.h"
+
+1452231743 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\point1.h
+	"Point.h"
+
+1456446158 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\point.h
+	<cmath>
+	<iostream>
+	<type_traits>
+
+1452231546 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\point2.h
+	"Point.h"
+
+1452231430 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\point3.h
+	"Point.h"
+	"Point2.h"
+
+1451551658 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\point4.h
+	"Point.h"
+
+1451551662 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\matrix4f.h
+	"Point3.h"
+	<stack>
+	<iostream>
+	<string>
+
+1456684820 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\window.h
+	<gl/glew.h>
+	"WindowClass.h"
+	"options.h"
+	<map>
+	<vector>
+
+1456451669 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\windowclass.h
+	<iostream>
+	<windows.h>
+	<windowsx.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<map>
+
+1442207350 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\options.h
+	<map>
+
+1456604988 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\console.h
+	"Window.h"
+	"MathLib.h"
+	"String.h"
+	"Log.h"
+	"TextBox.h"
+	"TextImputBox.h"
+	"CommandParser.h"
+
+1455620824 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\string.h
+	<iostream>
+	<algorithm>
+	<vector>
+	<sstream>
+	"Char.h"
+	"SeparatorList.h"
+
+1452891372 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\char.h
+
+1453138544 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\separatorlist.h
+	<vector>
+	"Char.h"
+
+1453043244 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\log.h
+	<vector>
+	<iostream>
+	<fstream>
+	"String.h"
+	"Char.h"
+
+1453124079 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\textbox.h
+	"MathLib.h"
+	"String.h"
+	"Log.h"
+	"Font.h"
+
+1452896662 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\font.h
+	"SimplexFont.h"
+
+1452893864 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\simplexfont.h
+
+1455620098 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\textimputbox.h
+	"Window.h"
+	"String.h"
+
+1456608485 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\commandparser.h
+	"PlanetsMiniApp.h"
+
+1456454529 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\planetsminiapp.h
+
+1456713657 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\texture.h
+	"SOIL/SOIL.h"
+
+1456357981 c:\users\pangi\desktop\programing\projects\gamegraphicsengine\graphicsframework\libs\ipclientserverconnection.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<sys/wait.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<netdb.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+
+1215443608 source:c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\soil\image_dxt.c
+	"image_DXT.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1215443608 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\soil\image_dxt.h
+
+1215443608 source:c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\soil\image_helper.c
+	"image_helper.h"
+	<stdlib.h>
+	<math.h>
+
+1215443608 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\soil\image_helper.h
+
+1215443608 source:c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\soil\soil.c
+	<windows.h>
+	<wingdi.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<Carbon/Carbon.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	"SOIL.h"
+	"stb_image_aug.h"
+	"image_helper.h"
+	"image_DXT.h"
+	<stdlib.h>
+	<string.h>
+
+1215443608 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\soil\soil.h
+
+1215443608 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\soil\stb_image_aug.h
+	<stdio.h>
+
+1215443608 source:c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\soil\stb_image_aug.c
+	"stb_image_aug.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+	"stbi_DDS_aug.h"
+	"stbi_DDS_aug_c.h"
+
+1215443608 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\soil\stbi_dds_aug.h
+
+1215443608 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\soil\stbi_dds_aug_c.h
+
+1477297046 source:c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\main.cpp
+	<iostream>
+	"Libs/MathLib.h"
+	"Libs/Window.h"
+	"Libs/Console.h"
+	"Libs/Texture.h"
+	"Libs/IPClientServerConnection.h"
+	"Libs/PlanetsMiniApp.h"
+
+1452228384 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\mathlib.h
+	<cmath>
+	"Point1.h"
+	"Point2.h"
+	"Point3.h"
+	"Point4.h"
+	"Matrix4f.h"
+
+1452228143 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\point1.h
+	"Point.h"
+
+1456442558 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\point.h
+	<cmath>
+	<iostream>
+	<type_traits>
+
+1452227946 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\point2.h
+	"Point.h"
+
+1452227830 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\point3.h
+	"Point.h"
+	"Point2.h"
+
+1477296501 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\point4.h
+	"Point.h"
+	"Point4.h"
+	"Point.h"
+	"Point3.h"
+
+1451548062 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\matrix4f.h
+	"Point3.h"
+	<stack>
+	<iostream>
+	<string>
+
+1456681220 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\window.h
+	<gl/glew.h>
+	"WindowClass.h"
+	"options.h"
+	<map>
+	<vector>
+
+1456448069 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\windowclass.h
+	<iostream>
+	<windows.h>
+	<windowsx.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<map>
+
+1442203750 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\options.h
+	<map>
+
+1456601388 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\console.h
+	"Window.h"
+	"MathLib.h"
+	"String.h"
+	"Log.h"
+	"TextBox.h"
+	"TextImputBox.h"
+	"CommandParser.h"
+
+1455617224 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\string.h
+	<iostream>
+	<algorithm>
+	<vector>
+	<sstream>
+	"Char.h"
+	"SeparatorList.h"
+
+1452887772 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\char.h
+
+1453134944 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\separatorlist.h
+	<vector>
+	"Char.h"
+
+1453039644 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\log.h
+	<vector>
+	<iostream>
+	<fstream>
+	"String.h"
+	"Char.h"
+
+1453120479 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\textbox.h
+	"MathLib.h"
+	"String.h"
+	"Log.h"
+	"Font.h"
+
+1452893062 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\font.h
+	"SimplexFont.h"
+
+1452890264 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\simplexfont.h
+
+1455616498 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\textimputbox.h
+	"Window.h"
+	"String.h"
+
+1456604885 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\commandparser.h
+	"PlanetsMiniApp.h"
+
+1456450929 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\planetsminiapp.h
+
+1477296413 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\texture.h
+	"SOIL/SOIL.h"
+
+1456354381 c:\users\pangi\desktop\gametest\gamegraphicsengine\graphicsframework\libs\ipclientserverconnection.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<sys/wait.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<netdb.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+

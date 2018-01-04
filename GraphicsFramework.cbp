@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GraphicsFramework" />
+		<Option pch_mode="2" />
+		<Option compiler="copy_of_gnu_gcc_compiler" />
+		<Build>
+			<Target title="Debug">
+				<Option output="GraphicsFramework" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:/Users/Pangi/Desktop/GameGraphicsEngine/GraphicsFramework/.objs" />
+				<Option type="1" />
+				<Option compiler="copy_of_gnu_gcc_compiler" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="Libs/libassimp.a" />
+					<Add library="Libs/libgdi32.a" />
+					<Add library="Libs/libglew32.a" />
+					<Add library="Libs/libglu32.a" />
+					<Add library="Libs/libopengl32.a" />
+					<Add library="Libs/libSOIL.a" />
+					<Add library="Libs/libws2_32.a" />
+					<Add library="Libs/libws2help.a" />
+					<Add library="Libs/libwsock32.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="GraphicsFramework" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:/Users/Pangi/Desktop/GameGraphicsEngine/GraphicsFramework/.objs" />
+				<Option type="1" />
+				<Option compiler="copy_of_gnu_gcc_compiler" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="Libs/libassimp.a" />
+			<Add library="Libs/libgdi32.a" />
+			<Add library="Libs/libglew32.a" />
+			<Add library="Libs/libglu32.a" />
+			<Add library="Libs/libopengl32.a" />
+			<Add library="Libs/libSOIL.a" />
+		</Linker>
+		<Unit filename="Libs/Char.h" />
+		<Unit filename="Libs/CommandParser.h" />
+		<Unit filename="Libs/Console.h" />
+		<Unit filename="Libs/Font.h" />
+		<Unit filename="Libs/IPClientServerConnection.h" />
+		<Unit filename="Libs/Log.h" />
+		<Unit filename="Libs/MathLib.h" />
+		<Unit filename="Libs/Matrix4f.h" />
+		<Unit filename="Libs/PlanetsMiniApp.h" />
+		<Unit filename="Libs/Point.h" />
+		<Unit filename="Libs/Point1.h" />
+		<Unit filename="Libs/Point2.h" />
+		<Unit filename="Libs/Point3.h" />
+		<Unit filename="Libs/Point4.h" />
+		<Unit filename="Libs/SOIL/SOIL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Libs/SOIL/SOIL.h" />
+		<Unit filename="Libs/SOIL/image_DXT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Libs/SOIL/image_DXT.h" />
+		<Unit filename="Libs/SOIL/image_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Libs/SOIL/image_helper.h" />
+		<Unit filename="Libs/SOIL/stb_image_aug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Libs/SOIL/stb_image_aug.h" />
+		<Unit filename="Libs/SOIL/stbi_DDS_aug.h" />
+		<Unit filename="Libs/SOIL/stbi_DDS_aug_c.h" />
+		<Unit filename="Libs/SeparatorList.h" />
+		<Unit filename="Libs/SimplexFont.h" />
+		<Unit filename="Libs/String.h" />
+		<Unit filename="Libs/TextBox.h" />
+		<Unit filename="Libs/TextImputBox.h" />
+		<Unit filename="Libs/Texture.h" />
+		<Unit filename="Libs/Window.h" />
+		<Unit filename="Libs/WindowClass.h" />
+		<Unit filename="Libs/options.h" />
+		<Unit filename="TestImputFile" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
