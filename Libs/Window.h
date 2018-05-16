@@ -126,7 +126,7 @@ public:
     }
 };
 
-class WindowManager{
+class WindowManager {
 public:
     vector <WindowFrame*> windows;
     map <HWND, WindowFrame*> handleInput;
@@ -137,13 +137,13 @@ public:
         WindowFrame* windowFrame = new WindowFrame( windowCore );
 
         windows.push_back( windowFrame );
-        handleInput.insert( pair <HWND, WindowFrame*> ( windows[ windows.size() - 1 ]->window.hwnd,
-                                                         windows[ windows.size() - 1 ] ) );
+        handleInput.insert( pair <HWND, WindowFrame*>(windows[windows.size() - 1]->window.hwnd,
+                                                         windows[windows.size() - 1]));
 
         return WindowLink( windowFrame, windowFrame->window.hwnd );
     }
 
-    void Loop(){
+    void Loop() {
         while(true){
             currentWindow = handleInput[GetActiveWindow()];
 

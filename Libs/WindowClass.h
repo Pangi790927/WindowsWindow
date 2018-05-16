@@ -215,46 +215,34 @@ class Window{
 	}
 
 	Window( int width, int height, HWND hwndParent = NULL
-            , EventMemory *eventMemory = new EventMemory(), char *wName = "WindowsOpengl" ){
-
+            , EventMemory *eventMemory = new EventMemory(), char *wName = "WindowsOpengl" )
+    {
         this->eventMemory = eventMemory;
 
         dwExStyle = WS_EX_APPWINDOW | WS_EX_WINDOWEDGE ;
 		dwStyle = WS_OVERLAPPEDWINDOW |	WS_CLIPSIBLINGS | WS_CLIPCHILDREN ;
-        // WS_POPUP;
 
 		hInstance = GetModuleHandle(NULL);
-
 		RegisterWCEX( CS_HREDRAW | CS_VREDRAW | CS_OWNDC, wName , "MenuGL" );
-
 		CreateWindowHWND( wName , width , height, hwndParent );
-
         EventManager::addEvent( hwnd, eventMemory );
-
 		WindowShow( SW_SHOW , false );
-
-
 	}
 
-	~Window(){
-
+	~Window() {
         DestroyWin();
-
 	}
 
-    void getWinApiProp( HINSTANCE hInstance , HINSTANCE hPrevInstance , LPSTR lpCmdLine , int nCmdShow ){
-
+    void getWinApiProp( HINSTANCE hInstance , HINSTANCE hPrevInstance , LPSTR lpCmdLine , int nCmdShow ) {
         this->hInstance = hInstance  ;
         this->hPrevInstance = hPrevInstance ;
         this->lpCmdLine = lpCmdLine ;
         this->nCmdShow = nCmdShow ;
     }
 
-    void RegisterWCEX( unsigned int style , char *ClassName , char* MenuName ){
-
+    void RegisterWCEX( unsigned int style , char *ClassName , char* MenuName ) {
         this->WindowName = ClassName ;
         this->MenuName = MenuName ;
-
 
         this->wcex.cbSize = sizeof( WNDCLASSEX ) ;
         this->wcex.style = CS_HREDRAW | CS_VREDRAW | CS_OWNDC ;
@@ -273,7 +261,6 @@ class Window{
         this->wcex.lpszClassName = WindowName ;
 
         RegisterClassEx( &wcex );
-
     }
 
     void CreateWindowHWND( char *TabName , int width = 640 , int height = 480, HWND hwndParent = NULL ){
